@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="hr">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Mini-Print-Logo</title>
+    <meta name="keywords" content="tiskara, printanje, digitalni tisak, offset, grafička priprema">
+    <meta name="description" content="Tiskara">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img class="logo" src="fotografije/logo.png" alt="Logotip"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">POČETNA</a></li>
+                    <li><a href="index.html#o-nama">O &nbsp &nbsp NAMA</a></li>
+                    <li><a href="index.html#usluge">USLUGE</a></li>
+                    <li><a href="index.html#proizvodi">PROIZVODI</a></li>
+                    <li><a href="kontakt.html">KONTAKT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="naslov">
+            <h1>Grafička priprema</h1>
+        </div>
+
+    </section>
+
+    <div class="grafičkaPriprema-boja">
+        <section class="grafičkaPriprema">
+            <div class="row">
+                <div class="col-tekst">
+                    <h3>GRAFIČKA PRIPREMA</h3>
+                    <p>Podrazumjeva niz stručnih radnji pomoću kojih dizajnerska rješenja dovodimo do konačnog tiskanog
+                        proizvoda. Priprema je vrlo važan i odgovoran segment grafičkog posla. Da bi se kvalitetno
+                        obavila, potrebno je znanje i iskustvo o svim tehnikama tiska i dorade proizvoda kao i
+                        poznavanje karakteristika materija od kojih se proizvod izrađuje ili na koji se tiska. Grafička
+                        priprema uključuje unos i prijelom teksta, skaniranje i obradu slika, montažu fotografija, a po
+                        potrebi i korekture i prijevode teksta za tisak npr. brošura, kataloga, knjiga, letaka, plakata
+                        ili nekog drugog tiskanog materijala.
+                    </p>
+                </div>
+                <div class="col-slika" class="col-slika-w">
+                    <img src="fotografije/grafičkaPriprema.jpg" alt="grafička priprema" width="600px">
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <div class="zasto-boja">
+        <section class="zasto">
+            <h1>ZAŠTO ODABRATI UPRAVO NAS?</h1>
+            <div class="row">
+                <div class="zasto-col">
+                    <img src="fotografije/pointer.png" alt="pointer">
+                    <h3>KVALITETA</h3>
+                    <p>Visoka kvaliteta tiska,
+                        bilo da se radi o tisku
+                        <br> ili grafičkom dizajnu.
+                    </p>
+                </div>
+                <div class="zasto-col">
+                    <img src="fotografije/pointer.png" alt="pointer">
+                    <h3>PROFESIONALNOST</h3>
+                    <p>Naš tim je u svakom
+                        trenutku spreman vam
+                        pomoći sa vašim upitima.</p>
+                </div>
+                <div class="zasto-col">
+                    <img src="fotografije/pointer.png" alt="pointer">
+                    <h3>VELIKI IZBOR</h3>
+                    <p>Pružamo širok spektar
+                        usluga i proizvoda s
+                        kojima pretvaramo
+                        vaše ideje u stvarnost.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="kontakt">
+        <h1>Dopustite nam da budemo dio Vaše priče i <br> pretvorimo ideje u stvarnost</h1>
+        <a href="kontakt.html" class="više-btn">KONTAKT</a>
+    </section>
+
+    <section class="footer">
+        <img src="fotografije/logo-crni.png" alt="logo">
+        <p>Vaše ideje postaju stvarnost!</p>
+
+    </section>
+
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+
+</html>
